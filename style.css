@@ -1,0 +1,81 @@
+body{
+    background-color: black;
+    color: white;
+    margin: 0;
+}
+img{
+    max-width: 180px;
+    height: 180px;
+    cursor: pointer;
+}
+
+.imagens{
+display: flex;
+justify-content: space-around;
+
+}
+
+.tenis{
+border: 1px solid white;
+max-width: 180px;
+
+}
+
+.tenis:hover{
+    border: 3px solid white; 
+text-decoration: underline;
+}
+
+.rodapé{
+    background-color: white;
+    color: black;
+    height: 10vh;
+}
+
+.borderdahistória{
+    border-bottom: 1px solid #fff;
+
+}
+.titulo{
+    text-align: center;
+    height: 50vh;
+}
+.titulo p{
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align-last: justify;
+}
+h2{
+    color: white;
+}
+h1{
+    color: white;
+}
+.logos{
+    display: flex;
+    justify-content: space-around;
+}
+.marcas{
+    border: 1px solid white;
+    width: 180px;
+    height: 180px;
+    border-radius: 20px;
+    background-image: url(logo\ puma.png);
+    background-position: center;
+    background-size: cover;
+}
+.marcas:hover{
+    border: 3px solid white;
+    text-decoration: underline;
+}
+.nike{
+    border: 1px solid white;
+    width: 180px;
+    height: 180px;  
+}
+.nike :hover{
+    border: 3px;
+    cursor: pointer;
+    display: flex;
+    display: flex center;
+}
